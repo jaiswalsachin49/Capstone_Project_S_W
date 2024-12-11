@@ -5,6 +5,7 @@ body{
 }
 .main-container{
     width: Fixed (1,440px)px;
+    height: auto;
     top: -1734px;
     left: -720px;
     padding: 0px 48px 0px 48px;
@@ -56,8 +57,6 @@ h1{
     line-height: 120px;
     letter-spacing: -0.02em;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 .one{
     width: 100%;
@@ -66,16 +65,18 @@ h1{
 .landing_1{
     width: Fill (1,344px)px;
     height: Hug (1,032px)px;
-    padding: 96px 0px 96px 0px;
+    padding: 0px;
     gap: 48px;
 }
 .landing_2{
-    width: 100%;
-    height: 50px;
+    width: Fill (1,344px)px;
+    height: Hug (1,032px)px;
+    padding: 96px 0px 40px 0px;
+    gap: 48px;
     font-family: Roboto Mono;
     font-size: 17px;
     font-weight: 400;
-    line-height: 10px;
+    line-height: 18px;
 }
 .Project{
     font-size: 20px;
@@ -99,4 +100,121 @@ h1{
     height: auto;
     gap: 16px;
     padding-top: 40px;
+}
+.contact_me{
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (1,440px)px;
+    height: auto;
+    top: -1734px;
+    left: -720px;
+    padding: 0px 48px 0px 48px;
+}
+.cont{
+    font-family: 'Bebas Neue';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.des{
+    width: 640px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.landing_4{
+    width: Fixed (1,440px)px;
+    height: auto;
+    top: -1734px;
+    left: -720px;
+    padding: 0px 48px 0px 48px;
+}
+.contact_form{
+    width: Fixed (400px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.contact_content{
+    font-family: Bebas Neue;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+input{
+    width: 3%;
+    height: 60px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    text-align: center;
+    font-size: larger;
+}
+.submit{
+    width: 35%;
+    height: 100%;
+    padding: 8px 50px 8px 50px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: pink;
+    color: black;
+}
+.skip{
+    border-style: none;
+    background-color: white;
+    padding-top: 2%;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+footer{
+    width: Fixed (1,440px)px;
+    height: auto;
+    padding: 0px 48px 0px 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.follow{
+    width: Hug (349px)px;
+    height: Hug (48px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
 }
