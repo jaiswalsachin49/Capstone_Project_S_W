@@ -41,6 +41,7 @@ a{
 }
 .border{
     border: 0.5px solid #000000;
+    width: 100%;
 }
 .content{
     width: Fixed (1,440px)px;
@@ -75,7 +76,6 @@ h1{
     font-size: 17px;
     font-weight: 400;
     line-height: 10px;
-
 }
 .Project{
     font-size: 20px;
@@ -84,7 +84,7 @@ h1{
     display: flex;
     grid-template-rows: repeat(3, 1fr);
     width: Fill 1344px;
-    height: 429px;
+    height: auto;
     padding-top: 48px;
     gap: 16px;
 }
@@ -96,8 +96,7 @@ h1{
     display: flex;
     grid-template-rows: repeat(3, 1fr);
     width: Fill 1344px;
-    height: 429px;
+    height: auto;
     gap: 16px;
     padding-top: 40px;
 }
-/* This is a comment */
