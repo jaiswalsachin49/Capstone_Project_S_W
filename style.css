@@ -27,8 +27,6 @@ body{
 .home{
     width: 354px;
     height: 32px;
-    display: flex;
-    justify-content: center;
 }
 a{
     padding: 7px;
@@ -52,7 +50,11 @@ a:hover{
 }
 @media (max-width:540px) {
     .border{
-        width: 150%;
+        width: 100%;
+    }
+    body{
+        text-align: center;
+        scale: 100%;
     }
 }
 .content{
