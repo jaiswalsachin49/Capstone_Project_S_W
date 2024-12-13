@@ -57,6 +57,12 @@ a:hover{
         text-align: center;
         scale: 100%;
     }
+    .submit{
+        text-align: center;
+    }
+    .landing_2{
+        padding-top: 0;
+    }
 }
 .content{
     width: Fixed (1,440px)px;
