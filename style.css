@@ -1,83 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-body{
-    margin: 0;
+*{
+    padding: 0;
+    margin: 0; 
 }
-.main-container{
-    width: Fixed (1,440px)px;
+html, body{
     height: auto;
-    top: -1734px;
-    left: -720px;
-    padding: 0px 48px 0px 48px;
+    width: 100%;
+    overflow-x: hidden;
 }
 .nav{
     display: flex;
-    padding: 16px 0px 16px 0px;
-    gap: 0px;
     justify-content: space-between;
+    padding: 0 3.667vw;
+    height: 8vh;
+    align-items: center;
+    font-family: 'Bebas Neue';
 }
 .logo{
     font-family: Bebas Neue;
     font-size: 42px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 42px;
     letter-spacing: -0.04em;
-    padding: 0 10px;
-}
-.home{
-    width: 354px;
-    height: 32px;
+    text-align: left;
 }
 a{
-    padding: 7px;
     font-family: Bebas Neue;
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: -0.01em;
-    color: #000000;
+    text-align: left;
     text-decoration: none;
-    padding: 10px;
-    transition: 1s;
+    color: black;
+    padding: 0 1vw;
 }
 a:hover{
-        text-shadow:-2px 2px 4px #322154;
-
+    text-shadow:-2px 2px 4px #322154;
 }
 .border{
-    border: 0.5px solid #000000;
-    width: 100%;
-}
-@media (max-width:540px) {
-    .border{
-        width: 100%;
-        margin-top: 18%;
-    }
-    body{
-        text-align: center;
-        scale: 100%;
-    }
-    .submit{
-        text-align: center;
-    }
-    .landing_2{
-        padding-top: 0;
-    }
+    border: 0.5px solid black;
 }
 .content{
-    width: Fixed (1,440px)px;
-    top: -1734px;
-    left: -720px;
-    padding: 0px 48px 0px 48px;
+    width: 100%;
+    height: auto;
+    padding: 0 3.667vw;
 }
-h1{
+.landing_1{
+    width: 93.333vw;
+    height: auto;
+    padding: 2vw 0;
+    text-align: center;
+}
+.landing_1 > h1{
     font-family: Bebas Neue;
     font-size: 120px;
     font-weight: 400;
     line-height: 120px;
     letter-spacing: -0.02em;
-    text-align: center;
-    background-color: white;
+    padding: 7.5vh 0 4vh 0;
 }
 h1:hover{
     animation: ease-in-animation 1s forwards;
@@ -95,91 +77,80 @@ h1:hover{
     }
 }
 .one{
-    width: 100%;
+    margin-top: 5vh;
+    width: 93.333vw;
     height: auto;
-}
-.landing_1{
-    width: Fill (1,344px)px;
-    height: Hug (1,032px)px;
-    padding: 0px;
-    gap: 48px;
+
 }
 .landing_2{
-    width: Fill (1,344px)px;
-    height: Hug (1,032px)px;
-    padding: 96px 0px 40px 0px;
-    gap: 48px;
-    font-family: Roboto Mono;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 18px;
+    width: 93.333vw;
+    height: auto;
+    margin-top: 7vh;
 }
-.Project{
-    font-size: 20px;
+.project{
+    max-width: 28.889vw;
+    height: auto;
+    margin: 2vh 0;
 }
 .landing_2_text{
     display: flex;
-    grid-template-rows: repeat(3, 1fr);
-    width: Fill 1344px;
-    height: auto;
-    padding-top: 48px;
-    gap: 25px;
-}
-.img{
-    max-width: 100%;
-    height: auto;
+    justify-content: space-between;
 }
 .landing_3_text{
     display: flex;
-    grid-template-rows: repeat(3, 1fr);
-    width: Fill 1344px;
-    height: auto;
-    gap: 16px;
-    padding-top: 40px;
-    gap: 25px;
+    justify-content: space-between;
+}
+.img{
+    width: 28.889vw;
+}
+.Project{
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+p{
+    font-family: Roboto Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 .contact_me{
     display: flex;
     justify-content: space-between;
-    width: Fixed (1,440px)px;
-    height: auto;
-    top: -1734px;
-    left: -720px;
-    padding: 0px 48px 0px 48px;
+    width: 93.333vw;
+    margin: 3.333vw 0;
 }
 .cont{
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: -0.01em;
     text-align: left;
+    width: 45.556vw;
 }
 .des{
-    width: 640px;
-    height: 56px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto Mono;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    width: 44.444vw;
     text-align: left;
+    margin: 0 2vw 0 8vw;
 }
 .landing_4{
-    width: Fixed (1,440px)px;
-    height: auto;
-    top: -1734px;
-    left: -720px;
-    padding: 0px 48px 0px 48px;
+    width: 93.333vw;
+    height: 48.611vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact_form{
-    width: Fixed (400px)px;
-    height: Hug (248px)px;
-    gap: 32px;
-    padding-top: 200px;
+    width: 27.778vw;
     text-align: center;
-    padding-bottom: 25%;
 }
 .contact_content{
     font-family: Bebas Neue;
@@ -191,34 +162,39 @@ h1:hover{
 }
 .inputs{
     display: flex;
-    gap: 1%;
+    gap: 0.5vw;
     justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    margin: 1.5vh 1.111vw 1.5vh 1.111vw;
 }
 input{
-    width: 2%;
-    height: 60px;
-    padding: 8px 16px 8px 16px;
+    width: 3.444vw;
+    height: 5.889vh;
     border-radius: 8px;
-    border: 1px 0px 0px 0px;
     text-align: center;
-    font-size: larger;
     box-shadow: -2px 2px 4px #322154;
-    font-family: Roboto Mono;
-}
-.submit{
-    width: 30%;
-    height: 100%;
-    padding: 8px 50px 8px 50px;
-    border-radius: 8px;
-    text-align: center;
-    background-color: #000000;
-    color: white;
     font-family: Roboto Mono;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+}
+.submit{
+    width: 25.778vw;
+    height: 3.5vh;
+    margin: 1.5vh 1.111vw 1.5vh 1.111vw;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+.skip{
+    border-style: none;
+    background-color: white;
+    padding-top: 2%;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
 }
 .submit:hover{
     cursor: pointer;
