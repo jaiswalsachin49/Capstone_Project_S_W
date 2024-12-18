@@ -242,9 +242,16 @@ footer{
     text-decoration: none;
 }
 .follow{
+    display: flex;
+    flex-wrap: wrap;
     padding: 0.833vw 1.667vw;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 1);
+    font-family: Roboto Mono;
+    font-size: 1.389vw;
+    font-weight: 400;
+    line-height: 1.667vw;
+    text-align: left;
 }
 .submit:hover{
     cursor: pointer;
