@@ -4,11 +4,6 @@
     margin: 0;
     background-color: rgba(255, 255, 255, 1);
 }
-html, body{
-    height: auto;
-    width: 100%;
-    overflow-x: hidden;
-}
 .header{
     margin: 0 3.333vw;
     display: flex;
@@ -130,7 +125,7 @@ h2{
         border-radius: 5px;
     }
     .divider{
-        border: 1px solid rgb(79, 79, 79);
+        border: 1px dotted rgb(79, 79, 79);
     }
     h2{
         opacity: 1;
